@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
   name: "xctest-dynamic-overlay",
   platforms: [
-    .iOS(.v13),
-    .macOS(.v10_15),
-    .tvOS(.v13),
-    .watchOS(.v6),
+    .iOS(.v12),
+    .macOS(.v10_14),
+    .tvOS(.v12),
+    .watchOS(.v5),
   ],
   products: [
     .library(name: "XCTestDynamicOverlay", targets: ["XCTestDynamicOverlay"])
